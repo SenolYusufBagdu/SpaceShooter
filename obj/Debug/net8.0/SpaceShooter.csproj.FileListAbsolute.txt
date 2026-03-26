@@ -34,3 +34,5 @@ C:\Users\yusuf\source\repos\SpaceShooter\SpaceShooter\obj\Debug\net8.0\refint\Sp
 C:\Users\yusuf\source\repos\SpaceShooter\SpaceShooter\obj\Debug\net8.0\SpaceShooter.pdb
 C:\Users\yusuf\source\repos\SpaceShooter\SpaceShooter\obj\Debug\net8.0\SpaceShooter.genruntimeconfig.cache
 C:\Users\yusuf\source\repos\SpaceShooter\SpaceShooter\obj\Debug\net8.0\ref\SpaceShooter.dll
+C:\Users\yusuf\source\repos\SpaceShooter\SpaceShooter\bin\Debug\net8.0\Content\boss.xnb
+C:\Users\yusuf\source\repos\SpaceShooter\SpaceShooter\obj\Debug\net8.0\SpaceShooter.sourcelink.json

@@ -11,6 +11,7 @@ namespace SpaceShooter
         public Vector2 position;
         public Rectangle rect;
         public bool alive = true;
+        public int health = 3; // 3 can
 
         float speed = 250f;
 
@@ -42,6 +43,14 @@ namespace SpaceShooter
         public void Draw(SpriteBatch sb)
         {
             sb.Draw(texture, new Rectangle((int)position.X, (int)position.Y, 64, 64), Color.White);
+
+            // can göstergesi — kırmızı kareler
+            for (int i = 0; i < health; i++)
+            {
+                Texture2D t = new Texture2D(sb.GraphicsDevice, 1, 1);
+                t.SetData(new[] { Color.Red });
+                sb.Draw(t, new Rectangle(10 + i * 25, 570, 20, 20), Color.Red);
+            }
         }
     }
 }

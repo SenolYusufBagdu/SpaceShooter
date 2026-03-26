@@ -11,12 +11,14 @@ namespace SpaceShooter
         public Rectangle rect;
         public bool alive = true;
 
-        float speed = 120f;
+        float speed;
 
-        public Enemy(Texture2D texture, Vector2 position)
+        // speedBonus — her boss'tan sonra artar
+        public Enemy(Texture2D texture, Vector2 position, float speedBonus = 0f)
         {
             this.texture = texture;
             this.position = position;
+            this.speed = 120f + speedBonus; // baz hız + bonus
             this.rect = new Rectangle((int)position.X, (int)position.Y, 64, 64);
         }
 

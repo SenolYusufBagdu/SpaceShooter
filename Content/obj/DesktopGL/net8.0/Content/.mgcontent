@@ -4,11 +4,17 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/yusuf/source/repos/SpaceShooter/SpaceShooter/Content/boss.png</File>
     <File>C:/Users/yusuf/source/repos/SpaceShooter/SpaceShooter/Content/bullet.png</File>
     <File>C:/Users/yusuf/source/repos/SpaceShooter/SpaceShooter/Content/enemy.png</File>
+    <File>C:/Users/yusuf/source/repos/SpaceShooter/SpaceShooter/Content/kalp.png</File>
     <File>C:/Users/yusuf/source/repos/SpaceShooter/SpaceShooter/Content/player1.png</File>
+    <File>C:/Users/yusuf/source/repos/SpaceShooter/SpaceShooter/Content/space.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
